@@ -8,6 +8,7 @@ use System\Web\Mvc\Controller;
 
 class HomeController extends Controller
 {
+    // GET something
     public function Index() : ActionResult
     {
         return $this->View();
